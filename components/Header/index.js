@@ -13,9 +13,9 @@
 
 const headerPlace = document.querySelector('.header-container');
 
-headerPlace.appendChild(Header('SMARCH 28, 2019', 'Lambda Times', '98°'))
+headerPlace.appendChild(header('SMARCH 28, 2019', 'Lambda Times', '98°'))
 
-function Header(date, title, temp) {
+function header(date, title, temp) {
     // Creating new elements here
     const header = document.createElement('div');
     const headerDate = document.createElement('span');
